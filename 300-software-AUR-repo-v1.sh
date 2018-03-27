@@ -33,7 +33,7 @@ echo "Installing category Education"
 
 
 echo "Installing category Games"
-
+sh AUR/install-slsk-git-v*.sh
 
 echo "Installing category Graphics"
 
