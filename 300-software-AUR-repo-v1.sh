@@ -59,7 +59,7 @@ sh AUR/install-peek-v*.sh
 sh AUR/install-pithos-git-v*.sh
 sh AUR/install-pulseaudio-equalizer-ladspa-v*.sh
 #sh AUR/install-radiotray-v*.sh
-#sh AUR/install-spotify-v*.sh
+sh AUR/install-spotify-v*.sh
 
 
 echo "Installing category Office"
