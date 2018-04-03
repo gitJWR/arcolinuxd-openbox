@@ -42,6 +42,7 @@ sh AUR/install-font-manager-v*.sh
 echo "Installing category Internet"
 
 sh AUR/install-anydesk-v*.sh
+sh AUR/install-bitwarden-v*.sh
 sh AUR/install-corebird-v*.sh
 #sh AUR/install-dropbox-v*.sh
 #sh AUR/install-insync-v*.sh
