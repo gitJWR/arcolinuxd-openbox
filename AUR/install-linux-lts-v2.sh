@@ -1,19 +1,19 @@
 #!/bin/bash
-set -e
-
+#
+##################################################################################################################
+# Written to be used on 64 bits computers
+# Author 	: 	Erik Dubois
+# Website 	: 	http://www.erikdubois.be
+##################################################################################################################
 ##################################################################################################################
 #
 #   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
 #
 ##################################################################################################################
 
-# [    0.000000] [Firmware Bug]: TSC_DEADLINE disabled due to Errata; please update microcode to version: 0x52 (or later)
-
-
-sudo pacman -S intel-ucode --noconfirm
+sudo pacman -S --noconfirm --needed linux-lts linux-lts-headers
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 
-
 echo "################################################################"
-echo "####                             Fix done                 ######"
+echo "#########           You got to reboot.                 #########"
 echo "################################################################"

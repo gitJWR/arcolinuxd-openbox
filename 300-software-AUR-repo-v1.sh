@@ -42,7 +42,6 @@ sh AUR/install-font-manager-v*.sh
 echo "Installing category Internet"
 
 sh AUR/install-anydesk-v*.sh
-sh AUR/install-bitwarden-v*.sh
 sh AUR/install-corebird-v*.sh
 #sh AUR/install-dropbox-v*.sh
 #sh AUR/install-insync-v*.sh
@@ -60,7 +59,7 @@ sh AUR/install-peek-v*.sh
 sh AUR/install-pithos-git-v*.sh
 sh AUR/install-pulseaudio-equalizer-ladspa-v*.sh
 #sh AUR/install-radiotray-v*.sh
-sh AUR/install-spotify-v*.sh
+#sh AUR/install-spotify-v*.sh
 
 
 echo "Installing category Office"
@@ -92,7 +91,7 @@ sh AUR/install-ttf-font-awesome-v*.sh
 sh AUR/install-ttf-mac-fonts-v*.sh
 sh AUR/install-ttf-ms-fonts-v*.sh
 #sh AUR/install-ttf-roboto-mono-v*.sh
-sh AUR/install-virtualbox-for-linux-kernel-v*.sh
+sh AUR/install-virtualbox-for-linux-v*.sh
 sh AUR/install-wttr-v*.sh
 #sh AUR/install-xcursor-breeze-v*.sh
 
